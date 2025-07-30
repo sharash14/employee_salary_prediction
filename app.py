@@ -4,9 +4,9 @@ import numpy as np
 import pandas as pd
 
 # Load trained model and columns
-with open("salary_model.pkl", "rb") as f:
+with open("salary_model1.pkl", "rb") as f:
     model = pickle.load(f)
-with open("model_columns.pkl", "rb") as f:
+with open("model_columns1.pkl", "rb") as f:
     model_columns = pickle.load(f)
 
 # Title
